@@ -12,5 +12,6 @@ interface IteratorInterface extends \Iterator
      *
      * @return void
      */
+    #[\ReturnTypeWillChange]
     public function end();
 }
